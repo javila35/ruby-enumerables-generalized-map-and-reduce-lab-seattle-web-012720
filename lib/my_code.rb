@@ -10,8 +10,9 @@ end
 
 def reduce(source_array, starting_point=nil)
   index = 0
+  total = 0 
   while index < source_array.length
-    yield(starting_point += starting_point + source_array[index])
+    total += total + yield(source_array[index])
     index += 1
   end
   starting_point
