@@ -1,13 +1,13 @@
-def map(source_array)
+def map()
   index = 0 
   array = []
   while index < source_array.length 
-    yield(source_array[index])
+    yield
     index += 1 
   end
   array
 end 
 
 map() {
-  |array| array * -1
+  |n| n * -1
 }
