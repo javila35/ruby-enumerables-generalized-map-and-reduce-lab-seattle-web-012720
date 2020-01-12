@@ -7,3 +7,13 @@ def map(array)
   end
   new_array
 end 
+
+def reduce(source_array, starting_point=0)
+  index = 0
+  total = 0 
+  while index < source_array.length
+    total += yield(array[index])
+    index += 1
+  end
+  total
+end 
