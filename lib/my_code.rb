@@ -8,6 +8,6 @@ def map(source_array)
   array
 end 
 
-map(source_array) {
+map() {
   |array| array * -1
 }
