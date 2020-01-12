@@ -1,7 +1,7 @@
-def map()
+def map(n)
   index = 0 
   array = []
-  while index < source_array.length 
+  while index < .length 
     yield
     index += 1 
   end
