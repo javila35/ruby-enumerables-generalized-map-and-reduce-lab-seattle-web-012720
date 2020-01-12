@@ -2,7 +2,8 @@ def map(array)
   index = 0 
   new_array = []
   while index < array.length 
-    new_array.push(yield())
+    insert = yield
+    new_array << insert
     index += 1 
   end
   new_array
