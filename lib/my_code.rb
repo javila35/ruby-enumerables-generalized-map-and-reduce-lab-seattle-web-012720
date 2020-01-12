@@ -8,6 +8,6 @@ def map(n)
   array
 end 
 
-map() {
+map(n) {
   |n| n * -1
 }
