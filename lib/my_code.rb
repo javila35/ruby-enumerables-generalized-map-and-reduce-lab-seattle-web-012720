@@ -15,5 +15,5 @@ def reduce(source_array, starting_point=nil)
     total += total + yield(source_array[index])
     index += 1
   end
-  starting_point
+  total
 end 
