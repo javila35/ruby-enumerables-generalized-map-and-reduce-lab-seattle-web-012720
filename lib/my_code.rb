@@ -1,11 +1,11 @@
-def map(source_array)
+def map(array)
   index = 0 
-  array = []
-  while index < source_array.length 
-    yield
+  new_array = []
+  while index < array.length 
+    yield(new_array.push())
     index += 1 
   end
-  array
+  new_array
 end 
 
 map() {
