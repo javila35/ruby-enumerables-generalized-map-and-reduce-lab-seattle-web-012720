@@ -5,6 +5,7 @@ def map(source_array)
     yield
     index += 1 
   end
+  array
 end 
 
 map(source_array) {
