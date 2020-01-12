@@ -1,7 +1,7 @@
 def map(n)
   index = 0 
   array = []
-  while index < .length 
+  while index < n.length 
     yield
     index += 1 
   end
