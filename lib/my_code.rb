@@ -9,6 +9,6 @@ def map(array)
   new_array
 end 
 
-map() {
+map(array) {
   |n| n * -1
 }
