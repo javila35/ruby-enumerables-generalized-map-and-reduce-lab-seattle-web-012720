@@ -5,5 +5,4 @@ end
 make_sandwhich("chicken", "mayonaise") {
   |b| 
   "#{b} on rye ."
-  
 }
