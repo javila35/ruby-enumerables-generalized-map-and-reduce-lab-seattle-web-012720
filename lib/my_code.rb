@@ -9,5 +9,5 @@ def map(source_array)
 end 
 
 map(source_array) {
-  |array| array << source_array* -1
+  |array| array << source_array * -1
 }
