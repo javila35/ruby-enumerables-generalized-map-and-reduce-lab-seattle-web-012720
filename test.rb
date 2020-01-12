@@ -5,4 +5,3 @@ end
 make_sandwhich("chicken", "mayonaise") {
   |b| 
   "#{b.reverse} on #{"bread".reverse}."}
-end 
